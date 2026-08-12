@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}
+Dashboard | AI Code Review Platform
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <h1>Dashboard</h1>
+
+    <p class="text-muted">
+        Welcome to your AI Code Review Dashboard.
+    </p>
+
+    <div class="row mt-4">
+
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h5>Repositories</h5>
+                <h2>0</h2>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h5>Reviews</h5>
+                <h2>0</h2>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h5>Issues Found</h5>
+                <h2>0</h2>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
